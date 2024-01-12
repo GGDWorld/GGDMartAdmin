@@ -1,0 +1,61 @@
+name: ggd_mart_admin
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  velocity_x: ^4.1.1
+  get: ^4.6.5
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.0
+  firebase_storage: ^11.2.6
+  cloud_firestore: ^4.14.0
+  image_picker: ^1.0.4
+  flutter_native_splash: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  
+flutter_native_splash:
+  color: "#2e294e"
+  image: assets/logo.png
+  android_12:
+    icon_background_color: "#2e294e"
+    image: assets/logo.png
+
+  flutter_lints: ^3.0.1
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/icons/
+    - lib/services/category_model.json
+
+
